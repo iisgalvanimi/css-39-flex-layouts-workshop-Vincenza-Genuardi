@@ -1,0 +1,29 @@
+body {
+    background-color: hsl(240, 100%, 97%);
+}
+
+#author {
+    color:red;
+}
+
+.container{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.item{
+    text-align: center;
+    border-radius: 5%;
+    width: 48%;
+    height: 80px;
+   margin : 1%;
+    margin-bottom: 2%;
+    background-color: #ff66ff;
+}
+
+.item:nth-child(3n) {
+    width: 100%;
+  }
+  
